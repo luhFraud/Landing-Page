@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #F8F3C9;
+    font-family: "roboto", sans-serif;
+}
+.header{
+    color: #524f4a;
+    padding: 8px;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header-Logo{
+    margin-left: 42px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 8px;
+}
+ul{
+    list-style-type: none;
+    color: black;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 4px;
+}
+a{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px;
+    text-decoration: none;
+    color: #524f4a;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-right: 42px;
+}
+.top{
+    padding: 8px;
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.top .left{
+    padding: 8px;
+    margin-left: 42px;
+}
+.hero{
+    font-size: 36px;
+    font-weight: bold;
+    color: #524f4a;
+}
+.secondary{
+    color: #524f4a;
+    font-size: 18px;
+}
+#top-button{
+   border: none;
+   border-radius: 2px;
+   background: #524f4a;
+   height: 30px;
+   width: 80px;
+   font-size: 13px;
+   margin-top: 8px;
+   color: white;
+   margin-top: 16px;
+}
+.top-img{
+    margin-right: 42px;
+    height: 250px;
+    width: auto;
+}
+.mid{
+    width: 100vw;
+    height: 350px;
+    background-color: white;
+    
+}
+h3{
+    font-size: 28px;
+    color: #524f4a;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.box-container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: white;
+   height: 300px;
+
+}
+.img{
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.bottom{
+    background-color: #524f4a;
+    display: flex;
+    padding: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.quote{
+    font-style: italic;
+}
+
+.section-1{
+    margin: 50px 150px;
+    text-align: left;
+    border-radius: 7px;
+    
+    padding: 50px;
+    background-color: white;
+    color: #524f4a;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#button-2{
+   border-radius: 2px;
+   background: #524f4a;
+   height: 60px;
+   width: auto;
+   font-size: 13px;
+   margin-top: 8px;
+   color: white;
+   margin-top: 16px;
+   border: none;
+}
+.footer{
+    text-align: center;
+    background-color: #524f4a;
+    padding: 10px;
+}
+.copyright {
+    font-size: 12px;
+}
